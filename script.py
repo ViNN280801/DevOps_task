@@ -1,8 +1,10 @@
 # Importing libraries to work with system, time, difference of some objects
-import sys, datetime, difflib
+from re import search
+import sys
+import datetime
+import difflib
 
 # Importing colors library
-import colorama
 from colorama import init
 from termcolor import colored
 
@@ -10,18 +12,13 @@ from termcolor import colored
 init()
 
 # Importing 'search' from regex library
-from re import search
-
 # Constant variable initialization
 # Where 'datetime.datetime.now().timestamp()' -> is time stamp
 # and 'datetime.datetime.fromtimestamp()' -> converts time stamp to
 # normal date and time, for example: 2023-01-11 18:40:31.988340
 TIME_STAMP = datetime.datetime.fromtimestamp(
     datetime.datetime.now().timestamp())
-
-# Getting names of files which are been passed to CLI
-# by command "py script.py <file1> <file2>"
-filenames = sys.argv[1:]
+print(f"Time stamp: {TIME_STAMP}")
 
 # Defining function that will be show a menu
 def menu():
@@ -49,19 +46,23 @@ def compareFiles(filenames):
                     print(line, end='')
 
 # Defining function of looped menu
-def loopedMenu():
+def loopedMenu(filenames):
     while True:
         choice = menu()
         if choice == 1:
-            print('Which of file do you want to view?\n1. {0}\n2. {1}\nEnter a number: '.format(
-                filenames[0], filenames[1]), end='')
-            choice = input()
-            if int(choice) == 1:
-                printContentsOfFile(filenames[0])
-            elif int(choice) == 2:
-                printContentsOfFile(filenames[1])
-            else:
-                print('Incorrect input')
+            while True:
+                print('Which of file do you want to view?\n1. {0}\n2. {1}\nEnter a number: '.format(
+                    filenames[0], filenames[1]), end='')
+                choice = input()
+                if int(choice) == 1:
+                    printContentsOfFile(filenames[0])
+                    break
+                elif int(choice) == 2:
+                    printContentsOfFile(filenames[1])
+                    break
+                else:
+                    print('Incorrect input')
+
         elif choice == 2:
             compareFiles(filenames)
         elif choice == 3:
@@ -70,4 +71,10 @@ def loopedMenu():
         else:
             print('Incorrect input')
 
-loopedMenu()
+def main():
+    # Getting names of files which are been passed to CLI
+    # by command "py script.py <file1> <file2>"
+    filenames = sys.argv[1:]
+    loopedMenu(filenames)
+
+main()
