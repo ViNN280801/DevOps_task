@@ -1,8 +1,6 @@
 # Importing libraries to work with system, time, difference of some objects
 from re import search
-import sys
-import datetime
-import difflib
+import sys, datetime, difflib
 
 # Importing colors library
 from colorama import init
@@ -10,6 +8,9 @@ from termcolor import colored
 
 # Using colorama to make termcolor work on Windows
 init()
+
+# Importing regex library
+import re
 
 # Importing 'search' from regex library
 # Constant variable initialization
@@ -31,19 +32,26 @@ def printContentsOfFile(filename):
         for line in f:
             print(line, end='')
 
+def findStringInFile(filename):
+    pattern = re.compile("compiler=")
+    for i, line in enumerate(open(filename)):
+        for match in re.finditer(pattern, line):
+            print(f'Found on line {i + 1}: {match.group()}')
+
 # Emulating 'diff' command
 def compareFiles(filenames):
     with open(filenames[0], 'r') as f1:
         with open(filenames[1], 'r') as f2:
-            diff = difflib.unified_diff(f1.readlines(), f2.readlines())
+            findStringInFile(filenames[0])
+            # diff = difflib.unified_diff(f1.readlines(), f2.readlines())
 
-            for line in diff:
-                if line[0] == '+':
-                    print(colored(line, 'green'), end='')
-                elif line[0] == '-':
-                    print(colored(line, 'red'), end='')
-                else:
-                    print(line, end='')
+            # for line in diff:
+            #     if line[0] == '+':
+            #         print(colored(line, 'green'), end='')
+            #     elif line[0] == '-':
+            #         print(colored(line, 'red'), end='')
+            #     else:
+            #         print(line, end='')
 
 # Defining function of looped menu
 def loopedMenu(filenames):
