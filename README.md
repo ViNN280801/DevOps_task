@@ -13,11 +13,34 @@ Code style of script matches following rule:
 
 File README.md formatted with following rule:
 
-- [REAMDE.md Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - Correct, short and contentful formatting
+- [REAMDE.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - Correct, short and contentfull formatting
 
 Stamp of date and time initialized as a constant variable in the script,
 and it prints on the head line of the program execution.
 
 ### How to use
 
+#### Iterating in the menu
+
+General view of menu
 ![](img/general/1.png)
+Enter a '1' value
+![](img/general/2.png)
+Example of viewing a file
+![](img/general/3.png)
+Enter a '2' value
+![](img/general/4.png)
+Enter a '3' value
+![](img/general/5.png)
+Enter a '4' value
+![](img/general/6.png)
+
+#### Handling errors
+
+Entering a string instead of the number
+![](img/checkings/1.png)
+Entering incorrect number
+![](img/checkings/2.png)
+
+Recursive link on this repo:
+[DevOps Task](https://github.com/ViNN280801/DevOps_infotecs_attempt3#how-to-use)
