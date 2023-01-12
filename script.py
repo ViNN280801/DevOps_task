@@ -29,7 +29,7 @@ def clearConsole():
 def isOnlyDigits(string):
     ''' Returns "True" if 'string' is contains only digits
     "False" - otherwise '''
-    if search("\d+", string):
+    if search("^\d+$", string):
         return True
     else:
         return False
