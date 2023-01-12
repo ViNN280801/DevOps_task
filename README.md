@@ -83,4 +83,4 @@ Entering incorrect number
 ![](img/checkings/2.png)
 
 Recursive link on this repo:
-[DevOps Task](https://github.com/ViNN280801/DevOps_infotecs_attempt3)
+[DevOps Task](https://github.com/ViNN280801/DevOps_task#devops_task)
