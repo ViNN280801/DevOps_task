@@ -1,0 +1,225 @@
+30-06-2022 11:01:02 Starting...
+Exporting package recipe
+zlib/1.2.12 exports: File 'conandata.yml' found. Exporting it...
+zlib/1.2.12 exports: Copied 1 '.yml' file: conandata.yml
+zlib/1.2.12: Calling export_sources()
+zlib/1.2.12 export_sources() method: Copied 1 '.txt' file: CMakeLists.txt
+zlib/1.2.12 export_sources() method: Copied 2 '.patch' files: 0001-fix-cmake.patch, 0002-gzguts-xcode12-compile-fix.patch
+zlib/1.2.12: The stored package has not changed
+zlib/1.2.12: Exported revision: c67ce17f2e96b972d42393ce50a76a1a
+Configuration:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++11
+compiler.version=10.2
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+zlib/1.2.12: Forced build from source
+zlib/1.2.12 (test package): Installing package
+Requirements
+    zlib/1.2.12 from local cache - Cache
+Packages
+    zlib/1.2.12:30b88e95da2480aa597d26d85ba6f64038dcf40f - Build
+
+30-06-2022 11:01:07 Installing (downloading, building) binaries...
+zlib/1.2.12: Copying sources to build folder
+zlib/1.2.12: Building your package in /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f
+zlib/1.2.12: Generator cmake created conanbuildinfo.cmake
+zlib/1.2.12: Aggregating env generators
+zlib/1.2.12: Calling build()
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 10.2.1
+-- The CXX compiler identification is GNU 10.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Conan: called by CMake conan helper
+-- Conan: called inside local cache
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting language standard
+-- Conan: Adjusting fPIC flag (ON)
+-- Conan: Compiler GCC>=5, checking major version 10.2
+-- Conan: Checking correct version: 10.2
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Renaming
+--     /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/zconf.h
+-- to 'zconf.h.included' because this file is included with zlib
+-- but CMake generates it automatically in the build directory.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder
+/usr/bin/cmake -S/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f -B/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/CMakeFiles /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+/usr/bin/gmake  -f source_subfolder/CMakeFiles/zlib.dir/build.make source_subfolder/CMakeFiles/zlib.dir/depend
+gmake[2]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder/CMakeFiles/zlib.dir/DependInfo.cmake --color=
+Dependee "/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder/CMakeFiles/zlib.dir/DependInfo.cmake" is newer than depender "/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder/CMakeFiles/zlib.dir/depend.internal".
+Dependee "/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder/CMakeFiles/zlib.dir/depend.internal".
+Scanning dependencies of target zlib
+gmake[2]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+/usr/bin/gmake  -f source_subfolder/CMakeFiles/zlib.dir/build.make source_subfolder/CMakeFiles/zlib.dir/build
+gmake[2]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+[  6%] Building C object source_subfolder/CMakeFiles/zlib.dir/gzwrite.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/gzwrite.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/gzwrite.c
+[ 25%] Building C object source_subfolder/CMakeFiles/zlib.dir/adler32.c.o
+[ 25%] Building C object source_subfolder/CMakeFiles/zlib.dir/crc32.c.o
+[ 25%] Building C object source_subfolder/CMakeFiles/zlib.dir/compress.c.o
+[ 31%] Building C object source_subfolder/CMakeFiles/zlib.dir/deflate.c.o
+[ 37%] Building C object source_subfolder/CMakeFiles/zlib.dir/gzlib.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/adler32.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/adler32.c
+[ 43%] Building C object source_subfolder/CMakeFiles/zlib.dir/gzclose.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/compress.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/compress.c
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/crc32.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/crc32.c
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/deflate.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/deflate.c
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/gzlib.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/gzlib.c
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/gzclose.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/gzclose.c
+[ 50%] Building C object source_subfolder/CMakeFiles/zlib.dir/gzread.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/gzread.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/gzread.c
+[ 56%] Building C object source_subfolder/CMakeFiles/zlib.dir/inflate.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/inflate.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/inflate.c
+[ 62%] Building C object source_subfolder/CMakeFiles/zlib.dir/infback.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/infback.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/infback.c
+[ 68%] Building C object source_subfolder/CMakeFiles/zlib.dir/inftrees.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/inftrees.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/inftrees.c
+[ 75%] Building C object source_subfolder/CMakeFiles/zlib.dir/inffast.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/inffast.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/inffast.c
+[ 81%] Building C object source_subfolder/CMakeFiles/zlib.dir/trees.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/trees.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/trees.c
+[ 87%] Building C object source_subfolder/CMakeFiles/zlib.dir/uncompr.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/uncompr.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/uncompr.c
+[ 93%] Building C object source_subfolder/CMakeFiles/zlib.dir/zutil.c.o
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder -I/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder -m64 -O3 -DNDEBUG  -fPIC -o CMakeFiles/zlib.dir/zutil.c.o -c /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder/zutil.c
+[100%] Linking C static library ../lib/libz.a
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cmake -P CMakeFiles/zlib.dir/cmake_clean_target.cmake
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder && /usr/bin/cmake -E cmake_link_script CMakeFiles/zlib.dir/link.txt --verbose=1
+/usr/bin/ar qc ../lib/libz.a CMakeFiles/zlib.dir/adler32.c.o CMakeFiles/zlib.dir/compress.c.o CMakeFiles/zlib.dir/crc32.c.o CMakeFiles/zlib.dir/deflate.c.o CMakeFiles/zlib.dir/gzclose.c.o CMakeFiles/zlib.dir/gzlib.c.o CMakeFiles/zlib.dir/gzread.c.o CMakeFiles/zlib.dir/gzwrite.c.o CMakeFiles/zlib.dir/inflate.c.o CMakeFiles/zlib.dir/infback.c.o CMakeFiles/zlib.dir/inftrees.c.o CMakeFiles/zlib.dir/inffast.c.o CMakeFiles/zlib.dir/trees.c.o CMakeFiles/zlib.dir/uncompr.c.o CMakeFiles/zlib.dir/zutil.c.o
+/usr/bin/ranlib ../lib/libz.a
+gmake[2]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+[100%] Built target zlib
+gmake[1]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+/usr/bin/cmake -E cmake_progress_start /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/CMakeFiles 0
+zlib/1.2.12: Package '30b88e95da2480aa597d26d85ba6f64038dcf40f' built
+zlib/1.2.12: Build folder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f
+zlib/1.2.12: Generated conaninfo.txt
+zlib/1.2.12: Generated conanbuildinfo.txt
+zlib/1.2.12: Generating the package
+zlib/1.2.12: Package folder /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f
+zlib/1.2.12: Calling package()
+/usr/bin/cmake -S/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f -B/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/CMakeFiles /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+/usr/bin/gmake  -f source_subfolder/CMakeFiles/zlib.dir/build.make source_subfolder/CMakeFiles/zlib.dir/depend
+gmake[2]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+cd /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/source_subfolder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/source_subfolder/CMakeFiles/zlib.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+/usr/bin/gmake  -f source_subfolder/CMakeFiles/zlib.dir/build.make source_subfolder/CMakeFiles/zlib.dir/build
+gmake[2]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+gmake[2]: Nothing to be done for 'source_subfolder/CMakeFiles/zlib.dir/build'.
+gmake[2]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+[100%] Built target zlib
+gmake[1]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+/usr/bin/cmake -E cmake_progress_start /home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder/CMakeFiles 0
+/usr/bin/gmake  -f CMakeFiles/Makefile2 preinstall
+gmake[1]: Entering directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+gmake[1]: Nothing to be done for 'preinstall'.
+gmake[1]: Leaving directory '/home/avb/.conan/data/zlib/1.2.12/_/_/build/30b88e95da2480aa597d26d85ba6f64038dcf40f/build_subfolder'
+30-06-2022 11:01:17 Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/lib/libz.a
+-- Installing: /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/include/zconf.h
+-- Installing: /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/include/zlib.h
+zlib/1.2.12 package(): Packaged 1 '.a' file: libz.a
+zlib/1.2.12 package(): Packaged 2 '.h' files: zconf.h, zlib.h
+zlib/1.2.12 package(): Packaged 1 file: LICENSE
+zlib/1.2.12: Package '30b88e95da2480aa597d26d85ba6f64038dcf40f' created
+zlib/1.2.12: Created package revision 521d5a61cf8fdb2d2e866574fb7a230a
+zlib/1.2.12 (test package): Generator cmake created conanbuildinfo.cmake
+zlib/1.2.12 (test package): Generator cmake_find_package created FindZLIB.cmake
+zlib/1.2.12 (test package): Generator txt created conanbuildinfo.txt
+zlib/1.2.12 (test package): Aggregating env generators
+zlib/1.2.12 (test package): Generated conaninfo.txt
+zlib/1.2.12 (test package): Generated graphinfo
+Using lockfile: '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/conan.lock'
+Using cached profile from lockfile
+zlib/1.2.12 (test package): Calling build()
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 10.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Conan: called by CMake conan helper
+-- Conan: Adjusting output directories
+-- Conan: Using cmake targets configuration
+-- Library z found /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/lib/libz.a
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- This project seems to be plain C, using 'GNU' compiler
+-- Conan: Compiler GCC>=5, checking major version 10.2
+-- Conan: Checking correct version: 10.2
+-- Conan: C++ stdlib: libstdc++11
+-- Conan: Using autogenerated FindZLIB.cmake
+-- Found ZLIB: 1.2.12 (found version "1.2.12") 
+-- Library z found /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/lib/libz.a
+-- Found: /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/lib/libz.a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c
+/usr/bin/cmake -S/home/avb/git/conan-center-index/recipes/zlib/all/test_package -B/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c'
+/usr/bin/gmake  -f CMakeFiles/test_package.dir/build.make CMakeFiles/test_package.dir/depend
+gmake[2]: Entering directory '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c'
+cd /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/avb/git/conan-center-index/recipes/zlib/all/test_package /home/avb/git/conan-center-index/recipes/zlib/all/test_package /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles/test_package.dir/DependInfo.cmake --color=
+Dependee "/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles/test_package.dir/DependInfo.cmake" is newer than depender "/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles/test_package.dir/depend.internal".
+Dependee "/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles/test_package.dir/depend.internal".
+Scanning dependencies of target test_package
+gmake[2]: Leaving directory '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c'
+/usr/bin/gmake  -f CMakeFiles/test_package.dir/build.make CMakeFiles/test_package.dir/build
+gmake[2]: Entering directory '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c'
+[ 50%] Building C object CMakeFiles/test_package.dir/test_package.c.o
+/usr/bin/cc -D_GLIBCXX_USE_CXX11_ABI=1 -isystem /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/include -m64 -O3 -DNDEBUG -o CMakeFiles/test_package.dir/test_package.c.o -c /home/avb/git/conan-center-index/recipes/zlib/all/test_package/test_package.c
+[100%] Linking C executable bin/test_package
+/usr/bin/cmake -E cmake_link_script CMakeFiles/test_package.dir/link.txt --verbose=1
+/usr/bin/cc  -m64 -O3 -DNDEBUG -rdynamic CMakeFiles/test_package.dir/test_package.c.o -o bin/test_package  /home/avb/.conan/data/zlib/1.2.12/_/_/package/30b88e95da2480aa597d26d85ba6f64038dcf40f/lib/libz.a 
+gmake[2]: Leaving directory '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c'
+[100%] Built target test_package
+gmake[1]: Leaving directory '/home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c'
+/usr/bin/cmake -E cmake_progress_start /home/avb/git/conan-center-index/recipes/zlib/all/test_package/build/e5a85f7cc2b80d5129278201658d628b704e6a1c/CMakeFiles 0
+30-06-2022 11:01:22 zlib/1.2.12 (test package): Running test()
+Compressed size is: 21
+Compressed string is: Conan Package Manager
+Compressed size is: 22
+Compressed string is: x\DAs\CE\CFK\CCSHL\CENLOU\F0M\CCRE
+ZLIB VERSION: 1.2.12
