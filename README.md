@@ -20,4 +20,4 @@ and it prints on the head line of the program execution.
 
 ### How to use
 
-![alt text](img/general/1.png)
+![](img/general/1.png)
