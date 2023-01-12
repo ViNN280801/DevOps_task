@@ -116,7 +116,11 @@ def main():
     # Getting names of files which are been passed to CLI
     # by command "python3 script.py <file1> <file2>"
     filenames = sys.argv[1:]
-    loopedMenu(filenames)
+    
+    if len(filenames) == 2:
+        loopedMenu(filenames)
+    else:
+        print(colored('Error! You entered wrong number of arguments', 'red'))
 
 
 main()
