@@ -24,7 +24,7 @@ and it prints on the head line of the program execution.
 
 If you are a Windows user, at first, you need to [add new path to your environment variable 'Path'](https://www.mathworks.com/matlabcentral/answers/94933-how-do-i-edit-my-system-path-in-windows)
 Then you need to [install pip](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
-The last step is execute following commands in the command prompt (cmd)
+The last step is execute following commands in the command prompt (cmd):
 
 ```
 pip install colorama
