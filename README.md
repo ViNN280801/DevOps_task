@@ -19,3 +19,5 @@ Stamp of date and time initialized as a constant variable in the script,
 and it prints on the head line of the program execution.
 
 ### How to use
+
+![alt text](img/general/1.png)
