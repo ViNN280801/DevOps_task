@@ -1,4 +1,4 @@
-# DevOps_infotecs_attempt3
+# DevOps_task
 
 The program is written in Python. It represents console application
 with looped menu, which requires users input to CLI. Example:
