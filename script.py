@@ -32,26 +32,28 @@ def printContentsOfFile(filename):
         for line in f:
             print(line, end='')
 
-def findStringInFile(filename):
-    pattern = re.compile("compiler=")
-    for i, line in enumerate(open(filename)):
-        for match in re.finditer(pattern, line):
-            print(f'Found on line {i + 1}: {match.group()}')
+# Returns found line which is matches with pattern
+def findStringInFile(filename, pattern="^compiler=\w"):
+    with open(filename, 'r') as f:
+        for line in f.readlines():
+            if re.search(pattern, line):
+                return line
 
 # Emulating 'diff' command
 def compareFiles(filenames):
     with open(filenames[0], 'r') as f1:
         with open(filenames[1], 'r') as f2:
-            findStringInFile(filenames[0])
-            # diff = difflib.unified_diff(f1.readlines(), f2.readlines())
-
-            # for line in diff:
-            #     if line[0] == '+':
-            #         print(colored(line, 'green'), end='')
-            #     elif line[0] == '-':
-            #         print(colored(line, 'red'), end='')
-            #     else:
-            #         print(line, end='')
+            if findStringInFile(filenames[0]) == findStringInFile(filenames[1]):
+                print(colored("The files differ only in the time and place of assembly", 'blue'))
+            else:
+                diff = difflib.unified_diff(f1.readlines(), f2.readlines())
+                for line in diff:
+                    if line[0] == '+':
+                        print(colored(line, 'green'), end='')
+                    elif line[0] == '-':
+                        print(colored(line, 'red'), end='')
+                    else:
+                        print(line, end='')
 
 # Defining function of looped menu
 def loopedMenu(filenames):
