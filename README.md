@@ -23,29 +23,37 @@ and it prints on the head line of the program execution.
 #### Iterating in the menu
 
 General view of menu
+
 ![](img/general/1.png)
 
 Enter a '1' value
+
 ![](img/general/2.png)
 
 Example of viewing a file
+
 ![](img/general/3.png)
 
 Enter a '2' value
+
 ![](img/general/4.png)
 
 Enter a '3' value
+
 ![](img/general/5.png)
 
 Enter a '4' value
+
 ![](img/general/6.png)
 
 #### Handling errors
 
 Entering a string instead of the number
+
 ![](img/checkings/1.png)
 
 Entering incorrect number
+
 ![](img/checkings/2.png)
 
 Recursive link on this repo:
