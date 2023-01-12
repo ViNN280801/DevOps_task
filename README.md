@@ -18,9 +18,11 @@ File README.md formatted with following rule:
 Stamp of date and time initialized as a constant variable in the script,
 and it prints on the head line of the program execution.
 
-### How to use
+### Description of methods are written in the 'script.py' as comments
 
-#### Iterating in the menu
+## How to use
+
+### Iterating in the menu
 
 General view of menu
 
@@ -46,7 +48,7 @@ Enter a '4' value
 
 ![](img/general/6.png)
 
-#### Handling errors
+### Handling errors
 
 Entering a string instead of the number
 
