@@ -40,7 +40,7 @@ pip install colorama
 pip install termcolor
 ```
 
-And then you can [execute this script](https://github.com/ViNN280801/DevOps_infotecs_attempt3#devops_infotecs_attempt3) without any errors or warnings
+And then you can [execute this script](https://github.com/ViNN280801/DevOps_task#devops-task) without any errors or warnings
 
 ### Description of methods are written in the 'script.py' as comments
 
