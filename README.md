@@ -1,4 +1,4 @@
-# DevOps_task
+# DevOps task
 
 The program is written in Python. It represents console application
 with looped menu, which requires users input to CLI. Example:
@@ -82,5 +82,4 @@ Entering incorrect number
 
 ![](img/checkings/2.png)
 
-Recursive link on this repo:
-[DevOps Task](https://github.com/ViNN280801/DevOps_task#devops_task)
+[To the beginning](https://github.com/ViNN280801/DevOps_task#devops_task)
