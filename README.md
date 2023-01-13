@@ -82,4 +82,4 @@ Entering incorrect number
 
 ![](img/checkings/2.png)
 
-[To the beginning](https://github.com/ViNN280801/DevOps_task#devops_task)
+[To the beginning](https://github.com/ViNN280801/DevOps_task#devops-task)
